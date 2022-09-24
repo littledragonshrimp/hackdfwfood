@@ -4,6 +4,10 @@
     
 }
 
+body{
+    background-color: pink;
+}
+
 .containLeft{
     height: 110px;
     width: 30%;
@@ -19,7 +23,10 @@
     height: 110px;
     width: 30%;
     border: 1px solid white;
-    background-color: blue;
+    background-color: rgb(138, 103, 213);
+    border-radius: 9%;
+    
+    text-decoration: underline white;
    
     display: flex;
     justify-content: center;
@@ -34,6 +41,7 @@
     border: 1px solid white;
     background-color: rgba(53, 219, 53, 0.731);
     margin-right: auto;
+    border-radius: 8px;
     display: flex;
     justify-content: center;
 }
@@ -44,6 +52,7 @@
     background-color: inherit;
     font-size: xx-large;
     color: white;
+    font-weight: bold;
 }
 
 .imageLeft{
@@ -56,14 +65,18 @@
     width:100px;
     justify-self: center;
     align-self: center;
-    margin-top: -8%;
+    margin: auto;
+    background-color: rgb(36, 207, 36);
+    padding: 0%;
 }
 
 .minusButton img{
     width: 100px;
     justify-self: center;
     align-self: center;
-    margin-top: -8%;
+    margin: auto;
+    background-color: rgb(251, 78, 78);
+    padding: 0%;
 }
 
 
