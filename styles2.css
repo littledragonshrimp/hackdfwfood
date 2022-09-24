@@ -1,7 +1,6 @@
-.row{
+.meat{
     display: flex;
     justify-content: center;
-    
 }
 
 .containLeft{
@@ -10,8 +9,6 @@
     border: 1px solid white;
     background-color: blue;
     margin-left: auto;
-    display: flex;
-    border-radius: 8px;
 }
 
 .containMid{
@@ -19,12 +16,11 @@
     width: 30%;
     border: 1px solid white;
     background-color: blue;
-   
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: center;
     align-content: center;   
-    margin: 0%;
-    padding: 0%;
 }
 
 .containRight{
@@ -33,7 +29,6 @@
     border: 1px solid white;
     background-color: blue;
     margin-right: auto;
-    display: flex;
 }
 
 .contentButton{
@@ -45,32 +40,5 @@
 }
 
 .imageLeft{
-    
-}
 
-@media screen 600px ()
-.plusButton img{
-    width:80%;
-    justify-self: center;
-    align-self: center;
-    margin-top: -8%;
-}
-
-.minusButton img{
-    width: 80%;
-    justify-self: center;
-    align-self: center;
-    margin-top: -8%;
-}
-
-
-
-/*TEST SECTION*/
-
-.testLeft{
-
-}
-
-.icon{
-    width: 10px;
 }
