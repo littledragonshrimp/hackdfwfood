@@ -19,7 +19,7 @@
     <div class="allContain">
 
         <div class="row">
-            <img src="./images/frontpic.png" alt="Food Tracker" srcset="">
+            <img src="./images/frontpic.png" alt="Food Tracker" id="frontPic" srcset="">
         </div>
         <!--Meat section
         <div class="row">
@@ -35,110 +35,118 @@
 
             <div class="containMid">
                 <!-- <button class="contentButton">🐮 Meat</button> -->
-                <button class="open-button" onclick="openForm()">🐮 Meat</button>
+                <button class="open-button"  onclick="openForm('myMeatForm')">🐮 Meat</button>
 
-                <div class="form-popup" id="myForm">
+                <div class="form-popup" id="myMeatForm">
                     <form action="/action_page.php" class="form-container">
 
                         <h1>Add your meat!</h1>
                         <div class="rowBtn">
                             <div class="containLeftBtn">
-                                <button>-</button>
+                                <button id="minus">-</button>
                             </div>
                             <div class="row">
                                 <label for="beef">🥩</label>
                             </div>
                             <div class="containRightBtn">
-                                <button>+</button>
+                                <button id="plus">+</button>
                             </div>
                         </div>
                         
                         <div class="rowBtn">
                             <div class="containLeftBtn">
-                                <button>-</button>
+                                <button id="minus">-</button>
                             </div>
                                 <div class="row">
                                     <label for="chicken">🍗</label>
                                 </div>
                             <div class="containRightBtn">
-                                <button>+</button>
+                                <button id="plus">+</button>
                             </div>
                         </div>
 
                         <div class="rowBtn">
                             <div class="containLeftBtn">
-                                <button>-</button>
+                                <button id="minus">-</button>
                             </div>
                                 <div class="row">
                                     <label for="pork">🐷</label>
                                 </div>
                             <div class="containRightBtn">
-                                <button>+</button>
+                                <button id="plus">+</button>
                             </div>
                         </div>
                         
                         <button type="submit" class="btn">Add Product!</button>
 
-                        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                        <button type="button" class="btn cancel" onclick="closeForm('myMeatForm')">Close</button>
                     </form>
                 </div>
             </div>
         </div>
-
-
-        <!-- The form -->
-
 
         <!--Veggie section-->
         <div class="row">
 
             <div class="containMid">
                 <!-- <button class="contentButton">🐮 Meat</button> -->
-                <button class="open-button" onclick="openForm()"> 🥬 Veggie</button>
+                <button class="open-button" onclick="openForm('myVeggieForm')">🥬 Veggie</button>
 
-                <div class="form-popup" id="myForm">
+                <div class="form-popup" id="myVeggieForm">
                     <form action="/action_page.php" class="form-container">
 
                         <h1>Add your veggies!</h1>
                         <div class="rowBtn">
                             <div class="containLeftBtn">
-                                <button>-</button>
+                                <button id="minus">-</button>
                             </div>
                             <div class="row">
-                                <label for="beef">🥩</label>
+                                <label for="cabbage">🥬 <span id="numberPlace">0</span></label>
                             </div>
                             <div class="containRightBtn">
-                                <button>+</button>
+                                <button id="plus">+</button>
                             </div>
                         </div>
                         
                         <div class="rowBtn">
                             <div class="containLeftBtn">
-                                <button>-</button>
+                                <button id="minus">-</button>
                             </div>
                                 <div class="row">
-                                    <label for="chicken">🍗</label>
+                                    <label for="corn">🌽</label>
                                 </div>
                             <div class="containRightBtn">
-                                <button>+</button>
+                                <button id="plus">+</button>
                             </div>
                         </div>
 
                         <div class="rowBtn">
                             <div class="containLeftBtn">
-                                <button>-</button>
+                                <button id="minus">-</button>
                             </div>
                                 <div class="row">
-                                    <label for="pork">🐷</label>
+                                    <label for="cucumber">🥒</label>
                                 </div>
                             <div class="containRightBtn">
-                                <button>+</button>
+                                <button id="plus">+</button>
+                            </div>
+                        </div>
+
+                        <div class="rowBtn">
+                            <div class="containLeftBtn">
+                                <button id="minus">-</button>
+                            </div>
+                                <div class="row">
+                                    <label for="eggplant">🍆</label>
+                                </div>
+                            <div class="containRightBtn">
+                                <button id="plus">+</button>
                             </div>
                         </div>
                         
                         <button type="submit" class="btn">Add Product!</button>
 
-                        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                        <button type="button" class="btn cancel" onclick="closeForm('myVeggieForm')">Close</button>
                     </form>
                 </div>
             </div>
@@ -149,51 +157,51 @@
 
             <div class="containMid">
                 <!-- <button class="contentButton">🐮 Meat</button> -->
-                <button class="open-button" onclick="openForm()">🥔 Roots</button>
+                <button class="open-button" onclick="openForm('myRootsForm')">🥔 Roots</button>
 
-                <div class="form-popup" id="myForm">
+                <div class="form-popup" id="myRootsForm">
                     <form action="/action_page.php" class="form-container">
 
                         <h1>Add your Roots!</h1>
                         <div class="rowBtn">
                             <div class="containLeftBtn">
-                                <button>-</button>
+                                <button id="minus">-</button>
                             </div>
                             <div class="row">
-                                <label for="beef">🥩</label>
+                                <label for="potato">🥔</label>
                             </div>
                             <div class="containRightBtn">
-                                <button>+</button>
+                                <button id="plus">+</button>
                             </div>
                         </div>
                         
                         <div class="rowBtn">
                             <div class="containLeftBtn">
-                                <button>-</button>
+                                <button id="minus">-</button>
                             </div>
                                 <div class="row">
-                                    <label for="chicken">🍗</label>
+                                    <label for="carrot">🥕</label>
                                 </div>
                             <div class="containRightBtn">
-                                <button>+</button>
+                                <button id="plus">+</button>
                             </div>
                         </div>
 
                         <div class="rowBtn">
                             <div class="containLeftBtn">
-                                <button>-</button>
+                                <button id="minus">-</button>
                             </div>
                                 <div class="row">
-                                    <label for="pork">🐷</label>
+                                    <label for="onion">🧅</label>
                                 </div>
                             <div class="containRightBtn">
-                                <button>+</button>
+                                <button id="plus">+</button>
                             </div>
                         </div>
                         
                         <button type="submit" class="btn">Add Product!</button>
 
-                        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                        <button type="button" class="btn cancel" onclick="closeForm('myRootsForm')">Close</button>
                     </form>
                 </div>
             </div>
@@ -204,39 +212,39 @@
 
             <div class="containMid">
                 <!-- <button class="contentButton">🐮 Meat</button> -->
-                <button class="open-button" onclick="openForm()">🐟 Fish</button>
+                <button class="open-button" onclick="openForm('myFishForm')">🐟 Fish</button>
 
-                <div class="form-popup" id="myForm">
+                <div class="form-popup" id="myFishForm">
                     <form action="/action_page.php" class="form-container">
 
                         <h1>Add your Fish!</h1>
                         <div class="rowBtn">
                             <div class="containLeftBtn">
-                                <button>-</button>
+                                <button id="minus">-</button>
                             </div>
                             <div class="row">
                                 <label for="fish">🐟</label>
                             </div>
                             <div class="containRightBtn">
-                                <button>+</button>
+                                <button id="plus">+</button>
                             </div>
                         </div>
                         
                         <div class="rowBtn">
                             <div class="containLeftBtn">
-                                <button>-</button>
+                                <button id="minus">-</button>
                             </div>
                                 <div class="row">
                                     <label for="shellfish">🦞</label>
                                 </div>
                             <div class="containRightBtn">
-                                <button>+</button>
+                                <button id="plus">+</button>
                             </div>
                         </div>
                         
                         <button type="submit" class="btn">Add Product!</button>
 
-                        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                        <button type="button" class="btn cancel" onclick="closeForm('myFishForm')">Close</button>
                     </form>
                 </div>
             </div>

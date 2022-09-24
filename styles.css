@@ -1,7 +1,10 @@
 .row{
     display: flex;
     justify-content: center;
-    
+}
+
+#frontPic {
+    max-width: 40%;
 }
 
 body{
@@ -27,7 +30,7 @@ body{
 
 .containMid{
     height: 110px;
-    width: 30%;
+    width: 40%;
     border: 1px solid white;
     background-color: rgb(138, 103, 213);
     border-radius: 9%;
@@ -121,10 +124,13 @@ body{
   .form-popup {
     display: none;
     position: fixed;
-    bottom: 0;
-    right: 15px;
+    margin: 0;
+    top: 10%;
     border: 3px solid #f1f1f1;
     z-index: 9;
+    width: 300px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
   }
   
   /* Add styles to the form container */
