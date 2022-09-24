@@ -1,4 +1,4 @@
-.meat{
+.row{
     display: flex;
     justify-content: center;
 }
@@ -42,3 +42,14 @@
 .imageLeft{
     
 }
+
+.plusButton img{
+    width: 60%;
+    object-fit: contain;
+}
+
+.minusButton img{
+    width: 60%;
+    object-fit: contain;
+}
+
