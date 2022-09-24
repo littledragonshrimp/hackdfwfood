@@ -8,10 +8,11 @@
     height: 110px;
     width: 30%;
     border: 1px solid white;
-    background-color: blue;
+    background-color: rgba(255, 0, 0, 0.738);
     margin-left: auto;
     display: flex;
     border-radius: 8px;
+    justify-content: center;
 }
 
 .containMid{
@@ -31,9 +32,10 @@
     height: 110px;
     width: 30%;
     border: 1px solid white;
-    background-color: blue;
+    background-color: rgba(53, 219, 53, 0.731);
     margin-right: auto;
     display: flex;
+    justify-content: center;
 }
 
 .contentButton{
@@ -48,16 +50,17 @@
     
 }
 
-@media screen 600px ()
+
+/* @media screen 600px () */
 .plusButton img{
-    width:80%;
+    width:100px;
     justify-self: center;
     align-self: center;
     margin-top: -8%;
 }
 
 .minusButton img{
-    width: 80%;
+    width: 100px;
     justify-self: center;
     align-self: center;
     margin-top: -8%;
