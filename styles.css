@@ -1,0 +1,44 @@
+.meat{
+    display: flex;
+    justify-content: center;
+}
+
+.containLeft{
+    height: 110px;
+    width: 30%;
+    border: 1px solid white;
+    background-color: blue;
+    margin-left: auto;
+}
+
+.containMid{
+    height: 110px;
+    width: 30%;
+    border: 1px solid white;
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;   
+}
+
+.containRight{
+    height: 110px;
+    width: 30%;
+    border: 1px solid white;
+    background-color: blue;
+    margin-right: auto;
+}
+
+.contentButton{
+    outline: none;
+    border: none;
+    background-color: inherit;
+    font-size: xx-large;
+    color: white;
+}
+
+.imageLeft{
+    
+}
