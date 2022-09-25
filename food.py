@@ -22,8 +22,8 @@ expirations = {"BEEF": 4,
 base = sqlite3.connect("FoodItems.db")
 cursor = base.cursor()
 
-# cursor.execute("""CREATE TABLE food (foodsort TEXT, foodtype TEXT, date TEXT,
-#                                      quantity TEXT, expiration INTEGER)""")
+cursor.execute("""CREATE TABLE food (foodsort TEXT, foodtype TEXT, date TEXT,
+                                     quantity TEXT, expiration INTEGER)""")
 
 
 # JSON to python
