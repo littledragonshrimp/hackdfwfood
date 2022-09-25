@@ -14,13 +14,13 @@ function openForm(id) {
         submitBtn = document.getElementById("submit"),
         number = 0, /// number value
         min = 0, /// min number
-        max = 30; /// max number
+        max = 100; /// max number
         
-    minusBtn.onclick = function(){
+    minusBtn.onclick = function(e){
+        e.preventDefault();
         if (number>min){
            number = number-1; /// Minus 1 of the number
            numberPlace.innerText = number ; /// Display the value in place of the number
-           
         }
         if(number == min) {        
             numberPlace.style.color= "red";
@@ -31,7 +31,8 @@ function openForm(id) {
            }
                 
     }
-    plusBtn.onclick = function(){
+    plusBtn.onclick = function(e){
+        e.preventDefault();
         if(number<max){
            number = number+1;
            numberPlace.innerText = number ; /// Display the value in place of the number
@@ -53,3 +54,4 @@ function openForm(id) {
     }
     
 }
+
