@@ -48,6 +48,10 @@ function openForm(id) {
         }
      
            
+/* BRUTE FORCE BUTTON */
+
+/* */
+
     }
     submitBtn.onclick = function(){
         alert("you choice : " + number);
