@@ -76,6 +76,7 @@ body{
 
 
 /* @media screen 600px () */
+/*OLD PLUS BUTTON IMG ONLY FOR PREVIOUS VERSION*/
 .plusButton img{
     width:100px;
     justify-self: center;
@@ -85,6 +86,7 @@ body{
     padding: 0%;
 }
 
+/* OLD MINUS BUTTON IMG ONLY FOR PREVIOUS VERSION
 .minusButton img{
     width: 100px;
     justify-self: center;
@@ -93,7 +95,7 @@ body{
     background-color: rgb(251, 78, 78);
     padding: 0%;
 }
-
+*/
 
 
 /*TEST SECTION*/
